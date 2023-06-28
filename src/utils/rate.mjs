@@ -3,6 +3,7 @@ export class Rate {
     privatBank: Rate.#getPrivatBankCurrencies,
     monoBank: Rate.#getMonoBankCurrencies,
   };
+
   static #cache = {
     privatBank: null,
     monoBank: null,

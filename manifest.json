@@ -23,12 +23,7 @@
   "manifest_version": 3,
   "name": "Ali UAH",
   "permissions": ["activeTab", "alarms", "storage", "scripting"],
-  "host_permissions": [
-    "*://*.aliexpress.com/",
-    "https://api.privatbank.ua/p24api/pubinfo",
-    "https://api.monobank.ua/bank/currency"
-  ],
-  "optional_host_permissions": ["*://*/*"],
+  "host_permissions": ["https://api.privatbank.ua/p24api/pubinfo", "https://api.monobank.ua/bank/currency"],
   "update_url": "https://clients2.google.com/service/update2/crx",
   "version": "2.0.0"
 }
